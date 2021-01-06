@@ -9,7 +9,7 @@ end
 ruby '2.7.2'
 gem 'sassc', '~>2.1.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2.1'
+gem 'rails', '~> 5.1.1'
 # Use sqlite3 as the database for Active Record
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.5'
 # Use Puma as the app server
@@ -65,10 +65,8 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
-group :production do
  gem 'pg', '~> 0.21.0'
  gem 'rails_12factor', '~> 0.0.3'
-end
 
 group :test do
   # Adds support for Capybara system testing and selenium driver
