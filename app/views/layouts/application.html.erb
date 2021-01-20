@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="h-100">
   <head>
     <title><%= @page_title %></title>
     <%= csrf_meta_tags %>
@@ -10,20 +10,20 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
-       <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-      
-
+  
+  <body class="d-flex h-100 text-center text-white bg-dark">
+      <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column"> 
+        
           <%= render 'shared/application_nav' %>
-          <%= login_helper %>
-
+          
           <%= yield %>
 
-          <%= @copyright %>
+          <%= render 'shared/application_footer' %>
 
           <% if session[:source]%>
             <p>Thanks for visiting from <%= session[:source] %></p>
           <% end %>
       </div>
   </body>
+  
 </html>
