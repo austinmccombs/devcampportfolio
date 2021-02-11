@@ -12,6 +12,10 @@
   .nav-masthead .nav-link:focus {
     border-bottom-color: rgba(255, 255, 255, .25);
   }
+
+  .navbar-nav {
+    flex-direction: row;
+  }
   
   
   .nav-masthead .active {
