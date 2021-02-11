@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content= "<%= @seo_keywords %>" />
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag    'application', 'navbar_styles.scss', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
@@ -15,7 +15,7 @@
   <div class = 'container'>
       <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column"> 
         
-          <%= render 'shared/application_nav' %>
+          <%= render 'shared/navbar' %>
           
           <%= yield %>
 

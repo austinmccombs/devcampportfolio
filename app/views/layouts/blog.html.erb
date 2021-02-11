@@ -7,13 +7,13 @@
     <%= csrf_meta_tags %>
 
     <met name="keywords" content= "<%= @seo_keywords %>" />
-    <%= stylesheet_link_tag    'blogs', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag    'blogs', 'navbar_styles.scss', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-    <%= render 'shared/blog_nav' %>
-
+    <%= render 'shared/navbar' %>
+    </br>
     <%= render 'shared/blog_masthead' %>
     <div class = 'container'>
       <div class = 'row'>
