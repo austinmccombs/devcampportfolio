@@ -53,6 +53,8 @@ gem 'devise', '~> 4.7', '>= 4.7.3'
 
 gem 'kaminari', '~> 1.2', '>= 1.2.1'
 
+gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
