@@ -1,0 +1,18 @@
+#Ignore bunlder config.
+/.bundle 
+
+#ignore all logfiles and tempfiles
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+#Ignore Bybug command history file.
+.byebug_history
+
+#Ignore DS.Store
+.DS_Store
+
+# I don't want to show my secrets
+/config/secrets.yml
+.env
