@@ -13,7 +13,7 @@ gem 'rails', '~> 5.1.1'
 # Use sqlite3 as the database for Active Record
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.5'
 # Use Puma as the app server
-gem 'puma', '~> 3.11'
+gem 'puma'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -54,11 +54,12 @@ gem 'devise', '~> 4.7', '>= 4.7.3'
 gem 'kaminari', '~> 1.2', '>= 1.2.1'
 
 gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
+gem 'pry', git: 'https://github.com/pry/pry.git', ref: '272b3290b5250d28ee82a5ff65aa3b29b825e37b'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  gem 'pry-byebug'
+  
 end
 
 group :development do
