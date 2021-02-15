@@ -1,7 +1,7 @@
 ready = undefined
 
 ready = ->
-  $('.sortable').sortable()
+  $('.sorting').sortable()
   return
 
-$(document).ready ready
+$(document).ready ready 

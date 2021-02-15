@@ -1,0 +1,13 @@
+I"“(function() {
+  var test;
+
+  test = void 0;
+
+  test = function() {
+    $('.sortable').sortable();
+  };
+
+  $(document).ready(test);
+
+}).call(this);
+:ET
