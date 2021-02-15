@@ -55,6 +55,13 @@ gem 'kaminari', '~> 1.2', '>= 1.2.1'
 
 gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
 gem 'pry', git: 'https://github.com/pry/pry.git', ref: '272b3290b5250d28ee82a5ff65aa3b29b825e37b'
+gem 'carrierwave', '~> 2.1', '>= 2.1.1'
+
+gem 'mini_magick', '~> 4.11'
+
+gem 'carrierwave-aws', '~> 1.5'
+
+gem 'dotenv-rails', '~> 2.7', '>= 2.7.6'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
