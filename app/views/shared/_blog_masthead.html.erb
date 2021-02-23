@@ -2,7 +2,8 @@
       <div class = 'container'>
         <h1 class = 'blog-title'>My Blog</h1>
         </br>
-        <%= link_to 'Write a New Blog', new_blog_path if logged_in?(:site_admin) %>
+        <%= link_to 'Write a New Blog', new_blog_path, 
+        class: 'btn btn-secondary btn-outline-warning' if logged_in?(:site_admin) %>
         </br>
       </div>
 </div>
