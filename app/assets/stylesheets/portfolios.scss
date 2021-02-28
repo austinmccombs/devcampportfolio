@@ -15,7 +15,7 @@ body {
     padding-top: 6rem;
     padding-bottom: 6rem;
     margin-bottom: 0;
-    background-color: #fff;
+    background-color: #727272;
   }
   
   .jumbotron p:last-child {
@@ -34,7 +34,7 @@ body {
     min-height: 50rem; /* Can be removed; just added for demo purposes */
     padding-top: 3rem;
     padding-bottom: 3rem;
-    background-color: #f7f7f7;
+    background-color: #727272;
   }
   
   .card {
@@ -42,7 +42,14 @@ body {
     width: 33.333%;
     padding: .75rem;
     margin-bottom: 2rem;
+    margin-top: 2rem;
     border: 0;
+    color: white;
+    background-color: #727272;
+  }
+
+  .card a{
+    color: #f5c71a;
   }
   
   .card > img {
@@ -56,10 +63,17 @@ body {
   footer {
     padding-top: 3rem;
     padding-bottom: 3rem;
+    
+  }
+
+  footer a{
+    color: #f5c71a;
   }
   
   footer p {
     margin-bottom: .25rem;
+    color: #727272;
+    text-align: center;
   }
 
   .bd-placeholder-img {
