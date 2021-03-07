@@ -1,7 +1,7 @@
 <div class = 'comment-card'>
     <div class = 'card'>
         <div class = 'card-block'>
-            <div class = 'row'>
+            <div class = 'row bg-dark'>
                 <div class = 'col-md-2'>
                     <%= gravatar_helper comment.user %>
                 </div>
@@ -10,8 +10,8 @@
                         <%= comment.content %>
                     </div>
                     <div class = 'comment-attribution'>
-                        Posted by <%= comment.user.first_name %>
-                        <%= distance_of_time_in_words(comment.created_at, Time.now) %>
+                        Posted by <span class = 'comment-name'><%= comment.user.first_name %></span>
+                        <span class= 'comment-time'><%= distance_of_time_in_words(comment.created_at, Time.now) %></span>
                     </div>
                 </div>
             </div>

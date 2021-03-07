@@ -9,6 +9,10 @@ a{
   color: #f5c71a;
 }
 
+a:hover{
+  color: black;
+}
+
 body{
   background-color: #727272;
   color: white;
@@ -76,7 +80,11 @@ body{
   }
   .blog-post-meta {
     margin-bottom: 1.25rem;
-    color: #727272;
+    color: #f5c71a;
+  }
+
+  .blog-time{
+    color: #f5c71a;
   }
   
   /*
@@ -188,11 +196,22 @@ h1, h2, h3, h4, h5, h6 {
 
 .comment-card > .card {
   margin-top: 15px;
+  margin-bottom: 5px;
+  
 }
 
 .comment-attribution{
-  font-size: 8em;
+  font-size: 10px;
   font-style: italic;
+}
+
+.comment-name{
+  color: #f5c71a;
+  font-weight: 500;
+}
+
+.comment-time{
+  font-size: 9px;
 }
 
 /* sidebar */
