@@ -2,8 +2,18 @@
 
     <h1>Topics</h1>
 
-
-    <%= render @blogs %>
+    <div class = 'row'>
+        <% @topics.each do |topic| %>
+            <div class = 'col-md-6'>
+                <div class = 'topic-cards'>
+                    <div class = 'card bg-dark'>
+                        <%= render topic %>
+                    </div>
+                </div>
+            </div>
+        <% end %>
+    </div>
+    
 
 
 </div>

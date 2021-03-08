@@ -84,7 +84,7 @@ body{
   }
 
   .blog-time{
-    color: #f5c71a;
+
   }
   
   /*
@@ -167,7 +167,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .blog-post-meta {
   margin-bottom: 1.25rem;
-  color: #727272;
+  color: #f5c71a;
 }
 
 /*
@@ -212,6 +212,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .comment-time{
   font-size: 9px;
+}
+
+.topic-cards {
+  margin-top: 25px;
+  margin-right: 50px;
+  text-align: center;
+  padding: 25px;
+  height: 25px;
 }
 
 /* sidebar */
