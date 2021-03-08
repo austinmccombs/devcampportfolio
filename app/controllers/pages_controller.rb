@@ -14,4 +14,8 @@ class PagesController < ApplicationController
     @tweets = SocialTool.twitter_search
   end
 
+  def sports_news
+    @sports = SocialTool.sports_search
+  end
+
 end
