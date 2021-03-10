@@ -188,7 +188,7 @@ body {
   }
   .app-card-container button:hover{
     background-color: #f5c71a;
-    color: #f5c71a;
+    color: white;
   }
 
   .profile-image{
@@ -196,3 +196,8 @@ body {
     vertical-align:  middle;
   }
 
+  .card-block{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #727272
+  }
