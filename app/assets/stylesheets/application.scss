@@ -170,3 +170,29 @@ body {
     padding-left: 15px;
     padding-right: 15px;
   }
+
+  .app-card-container {
+    color: #f5c71a;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+  }
+
+  .app-card-container > .card{
+    background-color: #727272;
+    padding: 40px;
+  }
+
+  .app-card-container a{
+    color: #727272;
+  }
+  .app-card-container button:hover{
+    background-color: #f5c71a;
+    color: #f5c71a;
+  }
+
+  .profile-image{
+    border: 1px solid #f5c71a;
+    vertical-align:  middle;
+  }
+
