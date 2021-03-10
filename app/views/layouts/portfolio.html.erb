@@ -6,7 +6,9 @@
     <title><%= @page_title %></title>
     <%= csrf_meta_tags %>
 
-    <met name="keywords" content= "<%= @seo_keywords %>" />
+    <meta name="keywords" content= "<%= @seo_keywords %>" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu&display=swap" rel="stylesheet">
     <%= favicon_link_tag 'favicons/favicon.ico' %>
     <%= stylesheet_link_tag    'portfolios', 'portfolios.scss', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>

@@ -16,6 +16,7 @@ a:hover{
 body{
   background-color: #727272;
   color: white;
+  font-family: 'Open Sans', sans-serif;
 }
 .blog-header {
     line-height: 1;
@@ -23,7 +24,7 @@ body{
   }
   
   .blog-header-logo {
-    font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+    font-family: 'Ubuntu', sans-serif;/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
     font-size: 2.25rem;
   }
   
@@ -32,7 +33,8 @@ body{
   }
   
   h1, h2, h3, h4, h5, h6 {
-    font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+    font-family: 'Ubuntu', sans-serif;
+    color: #f5c71a;
   }
   
   .display-4 {
@@ -82,10 +84,6 @@ body{
     margin-bottom: 1.25rem;
     color: #f5c71a;
   }
-
-  .blog-time{
-
-  }
   
   /*
    * Footer
@@ -110,7 +108,6 @@ body{
 }
 
 .blog-header-logo {
-  font-family: Amiri, Georgia, "Times New Roman", serif;
   font-size: 2.25rem;
 }
 
@@ -118,10 +115,6 @@ body{
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: Amiri, Georgia, "Times New Roman", serif;
-  color: #f5c71a;
-}
 
 .display-4 {
   font-size: 2.5rem;
