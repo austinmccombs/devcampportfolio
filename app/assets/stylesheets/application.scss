@@ -101,6 +101,9 @@ a {
     margin-left: 15px;
   }
 
+  .nav-brand{
+    color: #f5c71a;
+  }
 
   .nav-masthead .nav-link {
     padding: .05rem 0;
@@ -220,12 +223,18 @@ a {
   .card-block{
     margin-top: 5px;
     margin-bottom: 5px;
-    background-color: #727272
+    color: #727272;
+    padding: 5px;
+    
   }
 
   .skill{
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+
+  .job-title{
+    text-decoration: bold;
   }
 
   footer {
