@@ -5,7 +5,9 @@
 
 body {
     min-height: 75rem;
-    font-family: 'Open Sans', sans-serif; /* Can be removed; just added for demo purposes */
+    font-family: 'Open Sans', sans-serif; 
+    background-color: #727272;
+    
   }
 
 h1, .h1,
@@ -52,7 +54,7 @@ h6, .h6{
     width: 100%;
     padding: .75rem;
     margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     border: 0;
     color: white;
     background-color: #727272;
@@ -106,4 +108,7 @@ h6, .h6{
       padding-top: 30px;
   }
 
+  .masthead{
+    color: #f5c71a;
+  }
  

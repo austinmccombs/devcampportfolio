@@ -33,6 +33,14 @@ h6, .h6{
   font-family: 'Ubuntu', sans-serif;
 }
 
+a {
+  color: #f5c71a;
+}
+
+.app-body{
+  margin-top: 40px;
+}
+
 .cover-container {
   max-width: 42em;
 }
@@ -64,8 +72,13 @@ h6, .h6{
   */
 
   .card-body{
-    color: black;
+    background-color: #727272;
+    color: #f5c71a;
     text-align: left;
+  }
+
+  .card-body a{
+    color: #f5c71a;
   }
 
   .auth-links a{
@@ -214,3 +227,21 @@ h6, .h6{
     margin-top: 10px;
     margin-bottom: 10px;
   }
+
+  footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    
+  }
+
+  footer a{
+    color: #f5c71a;
+  }
+  
+  footer p {
+    margin-bottom: .25rem;
+    color: #727272;
+    text-align: center;
+  }
+  
+
