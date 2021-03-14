@@ -11,14 +11,6 @@
               <p><%= link_to topic.title, topic_path(topic) %></p>
             <% end %>
           </div>
-
-          <div class="p-4">
-            <h4 class="font-italic">Socials</h4>
-            <ol class="list-unstyled social-links">
-              <li><a href='https://github.com/austinmccombs'><%= fa_icon "github" %></a></li>
-              <li><a href='https://www.linkedin.com/in/austin-mccombs-99b647173/'><%= fa_icon "linkedin" %></a></li>
-              <li><a href='https://www.twitter.com/austin_mccombs9'><%= fa_icon "twitter" %></a></li>
-              <li><a href='https://www.instagram.com/austin_mccombs/'><%= fa_icon "instagram" %></a></li>
-            </ol>
-          </div>
+      
+          <%= render 'shared/socials' %>
 </div>

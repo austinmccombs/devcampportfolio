@@ -1,12 +1,18 @@
 
 
 
-  <nav class="navbar navbar-expand-lg bg-dark nav-masthead">
+  
+
+
+  <nav class="navbar navbar-expand-lg navbar-toggleable-md bg-dark nav-masthead">
   <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
     <div class="navbar-header">
       <a class="navbar-brand nav-brand" href="#">Austin McCombs</a>
     </div>
-    <div class = 'nav navbar-nav navbar-left'>
+    <div class = 'nav navbar-nav navbar-left' id = 'collapsibleNavbar'>
        <%= nav_helper 'text-white nav-link nav navbar-nav navbar-left', 'span' %>
     </div>
     <div class = 'nav navbar-nav navbar-right'>

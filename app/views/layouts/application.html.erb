@@ -16,7 +16,7 @@
   
   <body class = ''>
   <%= render 'shared/navbar' %>
-  <div class = 'container app-body'>
+  <div class = 'container'>
     
       <%# <%= video_tag
         'bg_video.mp4',
@@ -25,11 +25,13 @@
         loop: true,
         muted: true
        %>
+    <div class = 'row'>
+      <%= render 'shared/socials' %>
        
         <div class = 'cover-container d-flex w-100 h-100 p-3 mx-auto flex-column'>
-          
           <%= yield %>
-
+        </div>
+    </div>
           <%= render 'shared/application_footer' %>
 
          <%# <%= render alerts %> 
@@ -37,7 +39,7 @@
           <% if session[:source]%>
             <p>Thanks for visiting from <%= session[:source] %></p>
           <% end %>
-      </div>
+      
     </div>
   </body>
   

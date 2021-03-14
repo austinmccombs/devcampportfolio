@@ -1,5 +1,6 @@
 @import "bootstrap";
 @import "gritter";
+@import 'font-awesome';
 
 /*
  * Globals
@@ -35,6 +36,9 @@ h6, .h6{
 
 a {
   color: #f5c71a;
+}
+a:hover{
+  color: #fff;
 }
 
 .app-body{
@@ -235,6 +239,21 @@ a {
 
   .job-title{
     text-decoration: bold;
+  }
+
+  .resume_button{
+    text-align: center;
+  }
+
+  .social-links{
+    margin-top: 40px;
+    text-align: left;
+    color: #f5c71a;
+  }
+  
+  .social-links li{
+    font-size: 2rem;
+    
   }
 
   footer {

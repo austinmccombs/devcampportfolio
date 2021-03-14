@@ -1,6 +1,7 @@
 @import "bootstrap";
 @import "jquery-ui";
 @import "gritter";
+@import 'font-awesome';
 
 
 body {
@@ -114,4 +115,7 @@ h6, .h6{
  
   .nav-brand{
     color: #f5c71a;
+  }
+  .nav-brand:hover{
+      color: #fff;
   }
