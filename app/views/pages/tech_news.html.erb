@@ -1,13 +1,15 @@
 <div class = 'inner cover'>
     <div class = 'row news-header'>
-        <div class = 'col md-3'>
-            <%= link_to 'Tech', '', class: 'btn btn-lg btn-secondary btn-outline-warning text-white' %>
-        </div>
-        <div class = 'col-md-6'>
+        <div class = 'col-md-12'>
             <h1 class = 'cover-heading'>Tech News</h1>
         </div>
-        <div class = 'col-md-3'>
-            <%= link_to 'Sports', sports_news_path, class: 'btn btn-lg btn-warning btn-outline-secondary' %>
+    </div>
+    <div class = 'row news-header'>
+        <div class = 'col-md-6'>
+            <%= link_to 'Sports', sports_news_path, class: 'btn btn-lg btn-warning btn-outline-secondary tech-btn' %>
+        </div>
+        <div class = 'col-md-6'>
+            <%= link_to 'Tech', '', class: 'btn btn-lg btn-secondary btn-outline-warning text-white tech-btn' %>
         </div>
     </div>
     <div class = 'row'>
