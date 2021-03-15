@@ -126,7 +126,7 @@ a:hover{
   }
 
   .nav-masthead .nav-link {
-    padding: .05rem 0;
+    padding: 10px 10px;
     font-weight: 700;
     color: rgba(255, 255, 255, .5);
     background-color: transparent;
@@ -147,6 +147,9 @@ a:hover{
   .nav-masthead .active {
     color: #fff;
     border-bottom-color: #fff;
+  }
+  .navbar-collapse{
+    margin-left: 70px;
   }
 
   .title-name{
@@ -263,13 +266,15 @@ a:hover{
   }
 
   .social-links{
-    margin-top: 40px;
+    margin-top: 100px;
+    margin-bottom: 25px;
     text-align: left;
     color: #f5c71a;
   }
   
   .social-links li{
-    font-size: 2rem;
+    font-size: 4rem;
+    margin-top: 50px;
     
   }
 
