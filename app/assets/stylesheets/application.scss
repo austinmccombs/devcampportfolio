@@ -81,9 +81,24 @@ a:hover{
       
     }
   }
+  @media (max-width: 767px){
+    .social-links{
+      margin-top: 10px;
+      margin-bottom: 10px;
+      text-align: left;
+      color: #f5c71a;
+    }
+    
+    .social-links li{
+      font-size: 1rem;
+      margin-top: 10px;
+      margin-right: 25px;
+      display: inline;
+    }
+  }
 
 
-
+  
   
 
 
