@@ -69,6 +69,16 @@ a:hover{
       font-size: 3.5rem;
     }
   }
+  
+  .show ul{
+    width: 60px;
+  }
+
+  .show li a{
+    display: block;
+    
+  }
+ 
 
 
   /*
@@ -115,6 +125,7 @@ a:hover{
     color: rgba(255, 255, 255, .5);
     background-color: transparent;
     border-bottom: .25rem solid transparent;
+    display: block;
   }
   
   .nav-masthead .nav-link:hover,
@@ -255,6 +266,8 @@ a:hover{
     font-size: 2rem;
     
   }
+
+
 
   footer {
     padding-top: 3rem;
