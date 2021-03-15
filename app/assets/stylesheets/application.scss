@@ -70,15 +70,21 @@ a:hover{
     }
   }
   
-  .show ul{
-    width: 60px;
+
+  @media (max-width: 767px){
+    .navbar-collapse ul{
+      width: 60px;
+    }
+
+    .navbar-collapse li a{
+      display: block;
+      
+    }
   }
 
-  .show li a{
-    display: block;
-    
-  }
- 
+
+
+  
 
 
   /*
@@ -125,7 +131,7 @@ a:hover{
     color: rgba(255, 255, 255, .5);
     background-color: transparent;
     border-bottom: .25rem solid transparent;
-    display: block;
+
   }
   
   .nav-masthead .nav-link:hover,
