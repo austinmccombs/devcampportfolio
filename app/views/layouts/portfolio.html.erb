@@ -18,18 +18,18 @@
     <%= render 'shared/navbar' %>
       
      <%= render 'shared/portfolio_masthead' unless logged_in?(:site_admin) %>
-
+     <div class = 'container port-container'>
+      <%= yield %>
 
       
 
-      <%= yield %>
-
-      <%= render 'shared/portfolio_footer' %>
-
       <%= alerts %>
 
-      <% if session[:source]%>
-        <p>Thanks for visiting from <%= session[:source] %></p>
-      <% end %>
+      
+      
+     
+     </div>
+     <%= render 'shared/portfolio_footer' %>
   </body>
+  
 </html>

@@ -1,9 +1,11 @@
 <div class = 'container portfolio-container'>
-    <div class = 'row'>
+<%= link_to 'View All Portfolio Items', portfolios_path, class: 'link' %> 
+    <div class = 'row portfolio-card'>
+    
         <div class = 'col-md-7'>
             <%= image_tag portfolio_img(@portfolio_item.main_image, 'main'), width: '100%' %>
             <hr>
-            <%= link_to 'View All Portfolio Items', portfolios_path %> 
+            
         </div>
 
         <div class = 'col-md-5'>
