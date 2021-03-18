@@ -1,15 +1,21 @@
 
 
   <main class="px-3">
-    <div class = 'card bg-transparent text-center space-top text-yellow'>
-      <h1><%= fa_icon 'code' %></h1>
-      <p class="lead skill">
-        <span class = 'element'></span>
-      </p>
-      <p class="lead skill">
-        <%= link_to "About Me", about_me_path, class: 'btn btn-outline-warning space-top bg-dark' %>
-      </p>
-    </div>
+    <jumbotron class = 'bg-transparent text-center space-top text-yellow'>
+      <div >
+        <h1 class = 'icon-header'><%= fa_icon 'code' %></h1>
+        <p class="lead skill">
+          <span class = 'element space-top text-white'></span>
+        </p>
+        <p class="lead skill space-top">
+          <%= link_to "About Me", about_me_path, class: 'btn btn-outline-warning space-top bg-dark' %>
+        </p>
+      </div>
+    </jumbotron>
+
+    <hr>
+    
+    <%= render 'shared/latest_content' %>
     
   </main>
 

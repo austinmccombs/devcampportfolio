@@ -45,6 +45,10 @@ iframe{
   margin-top: 25px;
 }
 
+jumbotron{
+  margin-bottom: 50px;
+}
+
 .app-body{
   margin-top: 40px;
 }
@@ -109,6 +113,9 @@ iframe{
   /*
   * Custom Styles
   */
+  .icon-header{
+    margin-bottom: 40px;
+  }
 
   .card-body{
     background-color: #727272;
@@ -185,6 +192,14 @@ iframe{
     margin-bottom: 15px;
   }
 
+  .truncated{
+    overflow: hidden;
+    display: block;
+    height: 220px;
+    white-space: pre-wrap;
+    text-overflow: ellipsis;
+  }
+
   header h3{
     margin-top: 10px;
     margin-left: 10px;
@@ -256,6 +271,10 @@ iframe{
 
   }
 
+  .card-content{
+    margin-left: 85px;
+  }
+
   .app-card-container > .card{
     background-color: #727272;
     padding: 40px;
@@ -287,11 +306,15 @@ iframe{
   }
 
   .space-top{
-    margin-top: 20px;
+    margin-top: 40px;
   }
   
   .text-yellow{
     color: #f5c71a
+  }
+
+  .text-wjote{
+    color: white;
   }
 
   .skill{
@@ -320,6 +343,9 @@ iframe{
     
   }
 
+  .latest-stuff{
+    margin-top: 75px;
+  }
 
 
 

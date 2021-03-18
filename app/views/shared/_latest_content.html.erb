@@ -1,0 +1,18 @@
+<div class = 'container space-top latest-stuff'>
+      <h2 class = 'text-center space-top text-yellow'>Whats New?</h2>
+      <div class = 'row space-top'>
+        <div class = 'col-md-4'>
+          <h4 class = 'text-center text-yellow'><%= link_to @latest_blog.title, blogs_path%></h4>
+          <p class = 'text-white truncated'><%= @latest_blog.body %></p>
+        </div>
+
+        <div class = 'col-md-4'>
+        </div>
+
+        <div class = 'col-md-4'>
+  
+          <h4 class = 'text-center text-yellow'><%= link_to @latest_proj.title, portfolios_path%></h4>
+        <p class = 'text-white truncated'><%= @latest_proj.subtitle %></p>
+        </div>
+    </div>
+</div>
