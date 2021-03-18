@@ -2,7 +2,7 @@ class PagesController < ApplicationController
   def home
     @posts = Blog.all
     @skills = Skill.all
-    @latest_blog = Blog.last(params[:id])
+    @latest_blog = Blog.last
     @latest_proj = Portfolio.last
   end
 
