@@ -19,6 +19,10 @@
           <%= f.text_field :subtitle, class: 'form-control'%>
         </div>
         <div class="form-group">
+          <%= f.label :link %>
+          <%= f.text_field :link , class: 'form-control'%>
+        </div>
+        <div class="form-group">
           <label class= 'btn btn-secondary'>
             Upload a main image file <%= f.file_field :main_image %>
           </label>
