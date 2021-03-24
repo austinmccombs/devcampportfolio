@@ -1,19 +1,38 @@
 <div class = 'app-card-container'>
     <div class = 'card'>
 
-        <h1>Lets Work Together</h1>
+        <h1 class = 'text-center'>Lets Work Together</h1>
 
         <hr>
             <div class = "row">
-                <div class="col-md-4">
+                <div class="col-md-4 my-auto">
+                    <p
+                        type = 'button'
+                        data-toggle='collapse'
+                        data-target='#location'
+                        aria-expanded='false'
+                        aria-controller='location' >
+                        <%= fa_icon 'map-marker', class: 'icons contact-icons' %>
+                    </p>
+                    <div class = 'collapse' id = 'location'>
+                        <p>Salt Lake City, Utah</p>
+                    </div>
                     
-                    <h3>Location:</h3>
-                    <p>Salt Lake City, Utah</p>
-
-                    <h3>Phone:</h3>
-                    <p><%= number_to_phone '3852589841' %></p>
-
-                    <button class="btn btn-warning btn-outline-secondary"><a href="mailto:austinmccombs22@gmail.com?subject=PortfolioContact" "email me">Email me</button>
+                    <p
+                        type = 'button'
+                        data-toggle='collapse'
+                        data-target='#phoneNumber'
+                        aria-expanded='false'
+                        aria-controller='phoneNumber' >
+                        <%= fa_icon 'phone', class: 'icons contact-icons' %>
+                    </p>
+                    <div class = 'collapse' id='phoneNumber'>
+                        <p><%= number_to_phone '3852589841' %></p>
+                    </div>
+                    
+                    <p>
+                        <a href="mailto:austinmccombs22@gmail.com?subject=PortfolioContact" "email me"><%= fa_icon 'envelope', class: 'icons contact-icons'%>
+                    </p>
 
                 </div>
                 <div class="col-md-8">

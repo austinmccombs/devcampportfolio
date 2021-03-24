@@ -11,8 +11,6 @@
         <div class = 'col-md-5'>
             <div class = 'center-text'> 
                 <h1><%= @portfolio_item.title %></h1>
-            
-                <a target='_blank' rel='noopener noreferrer' href= '<%= @portfolio_item.link %>' class = 'btn btn-warning'> View Website </a>
             </div>
             
 
@@ -32,11 +30,13 @@
 
             <hr>
             <% if logged_in?(:site_admin) %>
-                <div class = 'col-md-12'>
+                <div class = 'col-md-12 center-text'>
                     <%= link_to 'Edit Item', edit_portfolio_path(@portfolio_item), class: 'btn btn-secondary btn-outline-warning' %>
-                
                 </div>
             <%end%>
+            <div class = 'center-text'>
+                <a target='_blank' rel='noopener noreferrer' href= '<%= @portfolio_item.link %>' class = 'btn btn-warning'> View Website </a>
+            </div>
             </br>
         </div>
     </div>
